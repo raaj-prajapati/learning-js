@@ -25,6 +25,12 @@ let isLoggedIn = false //boolean DataTypes
 // symbol => if we talk about uniques so we perfer the symbol
 
 //Object 
+console.log(typeof "Hitesh"); //it is a Type of String
+console.log(typeof 1); //it is type of number
+console.log(typeof null); //now null is the type of object 
+console.log(typeof undefined);// it types was undefined , undefined ek apne aap main ek type hain, lekin null ek object hain
+
+
 
 
 
