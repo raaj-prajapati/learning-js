@@ -37,3 +37,4 @@ console.log(typeof undefined);// it types was undefined , undefined ek apne aap 
 
 
 
+
