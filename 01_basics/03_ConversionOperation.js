@@ -102,6 +102,76 @@ console.log(typeof valueString); //it is convert into a String
 
 
 
+//=============== Operations =================
+let value = 3;
+let negValue = -value
+console.log(negValue);
+
+//This all are Baics Operations Which we are Perfroming in Operations 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2%3);
+
+
+//============== String Operations ====================
+
+/*
+let str1 = "Hello";
+let str2 = " Hitesh";
+let str3 = str1 + str2; //in this way we meger our string
+console.log(str3);
+
+console.log("1" + 2); //output is 12 
+
+console.log(1 + "2"); //output is 12
+
+console.log("1" + 2 + 2); //output is 122 //if the first letter is our string so all of them consider as a String 
+
+console.log(1 + 2 + "2"); //output is 32 // In starting there in no String so it will do a conversion first and then add a string ig string is persent;
+
+console.log(+true); //it will give me 1 anwer because true is boolean and then it perform a convergion beacause we increament it 
+
+// console.log(true+); //it give a error
+
+console.log(+""); //we have seen the output it will give us 0, reason no values is there in string
+
+*/
+
+let num1,num2,num3
+
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter =  100;
+++gameCounter;
+console.log(gameCounter); //101
+
+
+//===============Let Implement the PreFix and PostFix
+let x = 3; //it will be post increment which can increasement first and then show the output
+const y = x++;
+console.log(`x:${x} , y:${y}`);  //output : 4 , 3;
+
+let a =3
+const b = ++a; //it will be pre-increment which increment at last and then show the output 
+
+console.log(`a:${a} , b:${b}`); //output : 4 , 4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
