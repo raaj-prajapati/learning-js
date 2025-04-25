@@ -20,21 +20,31 @@
 let x = 10; //x is a number
 x = "hello";  //x is a String
 x = true; // x is true
-console.log(x); //output true
+console.log( x); //output true
 
 const score = 100;
-const scoreValues = 100.3;
+//console.log(typeof score); //output --> number
 
-const isLoggedIn = false;
-const outsideTemp = null;
-let userEmail;
+const scoreValues = 100.3;
+//console.log(typeof scoreValues); //output --> number
+
+
+const isLoggedIn = false; //output --> datatype is boolean
+const outsideTemp = null; //output --> datatype is object
+let userEmail;  
+console.log(typeof userEmail); //output ---> datatypes is undefined
+
+
 
 
 //If we want to declare the symbol;
 //let say id because id has unquie 
 
-const id = Symbol('123');
+const id = Symbol('123'); 
 const anotherid = Symbol('123'); //we are give the same values but return values is not same 
+console.log(typeof anotherid); //output ---> datatypes is Symbol
+
+
 
 console.log(id == anotherid); //output is false 
 
@@ -53,15 +63,17 @@ console.log(id == anotherid); //output is false
 //Array, Objects, Functions
 
 const heros = ["Raj", "Shyam", "Doga"]; //we declare the arrays
+console.log(typeof heros); //output -->  datatypes of heros is --> object
 
-let myObj = { // we declare the object
+let myObj = { // we declare the object like that 
     name : "hitesh",
     age : 22,
 }
+console.log(typeof myObj);
 
 const myFunction = function(){ //in they we delcare over function and we also store it as a function 
     console.log("Hello World");
-    
+
 }
 console.log(typeof outsideTemp); //ouput --> is object bacause it was unquie and null asign to object
 console.log(typeof scoreValues); //output --> is number bacuses we put a some number on our datatypes 
@@ -70,7 +82,8 @@ console.log(myFunction); //it will return a function and there return type was o
 //The all non-primative datatypes actully consider as  function 
 //fuction which is return a always that is object 
 
-
+//This is a Reference you can checkout the link
+// https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
 
