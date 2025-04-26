@@ -118,11 +118,23 @@ console.log(anothername);
 //============Taking about the Heap Section =============
 //in heap it was strore non primitive data types 
 
-let user = {
+let userone = {
     email : "user@google.com",
     upi : "user@ybl"
 
 }
+//the email and upi are go on a heap section sections and in stack it store the user , the userone got the references throung heap section where email abd upi are strore 
+
+let usertwo = userone; //so same usertwo also getting the refernces for heap section both are geeting same reference
+
+usertwo.email = "hitesh@google"; //we change the email for usertwo;
+console.log(userone.email); //output --> hitesh@google 
+console.log(usertwo.email); // output --> hitesh@google
+//beacuse it drictly change the orginal values through reference 
+
+
+
+
 
 
 
