@@ -13,6 +13,7 @@
 
 
 //=============================================================
+/*
 
 //Important : JavaScript is Dynamic Types Language or static Types languages 
 // In dynamic typing , you don't need to declare a variable's types. the type is determined at runtime, bases on the values assigned 
@@ -84,6 +85,44 @@ console.log(myFunction); //it will return a function and there return type was o
 
 //This is a Reference you can checkout the link
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+*/
+
+
+
+//==========================================================
+
+//Stack --> In Stack all the Primitive datatypes are stored,
+//when the Stack memeory is used so we get a Copy of the varaible which we declared 
+
+
+//Heap --> All the Non - prmitive data types are stored in the Heaps which are Object so we get the reference of orginal values
+
+//=========== CASE - 1 ==========
+/*
+let myYoutubename = "hiteshRajBhai"; //this is primitive datatypes so it will store in stack 
+
+let anothername = myYoutubename;
+console.log(anothername);
+*/
+//========== CASE -2 ===========
+
+let myYoutubename = "hiteshRajBhai";
+let anothername = myYoutubename; // here you are passing the reference of myYoutubename in anothername 
+
+anothername = "ChaiAurCode"; //here you are declaring the another name was with new string 
+//now what happening is in anothername was passing a reference of myyoutube and in anothername we declare the new String as chaiAurCode so it make a Copy in stack of myYoutube so orignal values are save 
+console.log(anothername);
+
+//============Taking about the Heap Section =============
+//in heap it was strore non primitive data types 
+
+let user = {
+    email : "user@google.com",
+    upi : "user@ybl"
+
+}
 
 
 
